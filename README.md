@@ -2,11 +2,11 @@
 Cyber security Engineer with hands-on Offensive and Defensive Practices and foundations in Networking/Routing Protocols.
 
 ISC2 Associate: 1737956.
-CCNA, Comp TIA security + certified.
+CISEH, CCNA, Comp TIA security + certified.
 
 [linkedin](https://www.linkedin.com/in/henil-vedant/)
 
-[medium](https://medium.com/@hhv8051)
+[blogs](https://medium.com/@hhv8051)
 
 [CVE'S]   
 
