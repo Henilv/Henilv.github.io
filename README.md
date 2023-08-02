@@ -4,9 +4,9 @@ Cyber security Engineer with hands-on Offensive and Defensive Practices and foun
 ISC2 Associate: 1737956.
 CCNA, Comp TIA security + certified.
 
-[Linkedin]  https://www.linkedin.com/in/henil-vedant/
+[Linkedin]  [https://www.linkedin.com/in/henil-vedant/](https://www.linkedin.com/in/henil-vedant/)
 
-[Medium]    https://medium.com/@hhv8051
+[Medium]    [](https://medium.com/@hhv8051)
 
 [CVE'S]   
 
