@@ -8,10 +8,7 @@ CCNA, Comp TIA security + certified.
 
 [medium](https://medium.com/@hhv8051)
 
-(https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
-
 [CVE'S]   
 
-
-
+(https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
 
