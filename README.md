@@ -10,6 +10,11 @@ CISEH, CCNA, Comp TIA security + certified.
 
 [blogs](https://medium.com/@hhv8051)
 
+[ML privacy & security notebook](https://github.com/Henilv/MachineLearning_Privacy-Security)
+
+[Computer Security Reports](https://github.com/Henilv/Computer_Security-attacks)
+
+[IoT:Edge Sensors & I.D.S](https://github.com/Henilv/IoT-app_sec)
 
 [research](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
 
