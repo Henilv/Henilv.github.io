@@ -10,7 +10,6 @@ CISEH, CCNA, Comp TIA security + certified.
 
 [blogs](https://medium.com/@hhv8051)
 
-[CVE'S]   
 
 [research](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
 
