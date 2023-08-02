@@ -6,6 +6,8 @@ CCNA, Comp TIA security + certified.
 
 [Linkedin]  (https://www.linkedin.com/in/henil-vedant/).
 
+[linkedin](https://www.linkedin.com/in/henil-vedant/)
+
 [Medium]   (https://medium.com/@hhv8051).
 
 [CVE'S]   
