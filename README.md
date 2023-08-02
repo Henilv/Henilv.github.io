@@ -1,4 +1,4 @@
-# Henil Vedant   - research assistant, syracuse university
+# henil vedant   - research assistant, syracuse university
 
 cyber security engineer with hands-on offensive and defensive practices and foundations in networking/routing protocols. area of interest: privacy & security of machine learning and ml for endpoint security.
 
