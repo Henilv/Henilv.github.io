@@ -11,4 +11,4 @@ CCNA, Comp TIA security + certified.
 
 [CVE'S]   
 
-[Publication] (https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24
+[Publication] (https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
