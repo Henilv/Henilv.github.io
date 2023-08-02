@@ -1,8 +1,8 @@
 # Henil Vedant   - Research Assistant, Syracuse University
 Cyber security Engineer with hands-on Offensive and Defensive Practices and foundations in Networking/Routing Protocols.
 
-ISC2 Associate: 1737956.
-
+ISC2 Associate: 173*95*.
+      ISACA ID: 177*70*
 
 CISEH, CCNA, Comp TIA security + certified.
 
