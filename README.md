@@ -1,6 +1,6 @@
 # Henil Vedant   - research assistant, syracuse university
 
-cyber security engineer with hands-on Offensive and Defensive Practices and foundations in networking/routing protocols. Area of interest: privacy & security of machine learning and ml for endpoint security.
+cyber security engineer with hands-on offensive and defensive practices and foundations in networking/routing protocols. area of interest: privacy & security of machine learning and ml for endpoint security.
 
 ISC2 Associate: 173*95*.
       ISACA ID: 177*70*
