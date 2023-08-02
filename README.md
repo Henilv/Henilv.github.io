@@ -1,2 +1,2 @@
 # Henilv.github.io
-[Linkedin Page]  (https://www.linkedin.com/in/henil-vedant/)
+[Linkedin Page]  https://www.linkedin.com/in/henil-vedant/)
