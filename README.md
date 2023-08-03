@@ -1,4 +1,4 @@
-# henil vedant   - research assistant, syracuse university
+# henil vedant   - research ast. syracuse university
 
 cyber security engineer with hands-on offensive and defensive practices and foundations in networking/routing protocols. 
 
@@ -28,4 +28,3 @@ CISEH, CCNA, Comp TIA security + certified.
 
 
 
- '#000000'
