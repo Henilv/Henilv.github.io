@@ -11,7 +11,7 @@ Active blogger on medium on recent attacks, exploits, how to perform CVE’s and
 
 Participated in informal meets, discussions, social mixers for Cyware, Decrypt, DSCI (Data Security Council of India), Nullcon, CTF’s.   
 
-member of ISC2, ISACA – Detroit Chapter
+Member of ISC2, ISACA – Detroit Chapter
 former member of Syracuse & Mumbai Chapter.
 
 
