@@ -1,12 +1,12 @@
 # henil vedant   - research assistant, syracuse university
 
 cyber security engineer with hands-on offensive and defensive practices and foundations in networking/routing protocols. 
-area of interest: privacy & security of machine learning and ml for endpoint security.
+Research area: privacy & security of machine learning and ml for endpoint security, P.A.T.E for privacy.
 
 
-actively collaborated with various social media influencers as strong advocate for stronger last line of defense (humans) through awareness & cyber literacy (phishing, smishing, sharing of OTP etc.) 
+Actively collaborated with various social media influencers as strong advocate for stronger last line of defense (humans) through awareness & cyber literacy (phishing, smishing, sharing of OTP etc.) 
 
-active blogger on medium on recent attacks, exploits, how to perform CVE’s and secure practices, ML privacy & Security, recent technology upgrades etc. shared on various platforms such as (linkedin, discord, slack..infosec communities). 
+Active blogger on medium on recent attacks, exploits, how to perform CVE’s and secure practices, ML privacy & Security, recent technology upgrades etc. shared on various platforms such as (linkedin, discord, slack..infosec communities). 
 
 Participated in informal meets, discussions, social mixers for Cyware, Decrypt, DSCI (Data Security Council of India), Nullcon, CTF’s.   
 
