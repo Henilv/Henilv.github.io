@@ -14,7 +14,7 @@ Participated in informal/formal meets, discussions, social mixers for Cyware, De
 Member of ISC2, ISACA – Detroit Chapter.  former member of Syracuse & Mumbai Chapter.
 
 
-CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (scheduled - 08/23), Comp TIA security+ - (scheduled - 09/23) .
+CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (08/23), Comp TIA security+ - (09/23) .
 
 
 [linkedin](https://www.linkedin.com/in/henil-vedant/)
@@ -33,7 +33,6 @@ CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (scheduled -
 
 
 [Fairness in algorithmic decision making](https://github.com/Henilv/Algorithmic_Fairness_in_decision-making/tree/main)
-
 
 
 [research](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
