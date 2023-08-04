@@ -1,6 +1,7 @@
 # henil vedant   - research assistant, syracuse university
 
-cyber security engineer with hands-on offensive and defensive practices and foundations in networking/routing protocols. 
+Cyber security engineer with hands-on offensive and defensive practices and foundations in networking/routing protocols. 
+
 Research area: privacy & security of machine learning and ml for endpoint security, P.A.T.E for privacy.
 
 
@@ -14,7 +15,8 @@ Member of ISC2, ISACA – Detroit Chapter
 former member of Syracuse, Mumbai Chapter.
 
 
-CISEH - 2019 certified, CCNA (scheduled - 08/23), Comp TIA security+ - (scheduled - 09/23)
+CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (scheduled - 08/23), Comp TIA security+ - (scheduled - 09/23) .
+
 
 [linkedin](https://www.linkedin.com/in/henil-vedant/)
 
