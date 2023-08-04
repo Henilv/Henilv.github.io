@@ -5,14 +5,13 @@ Cyber security engineer with hands-on offensive and defensive practices and foun
 Research area:  privacy & security of machine learning and ml for endpoint security, P.A.T.E for privacy.
 
 
-Actively collaborated with various social media influencers as strong advocate for stronger last line of defense (humans) through awareness & cyber literacy (phishing, smishing, sharing of OTP etc.) 
+Advocate for for stronger cyber literacy and awareness of g.r.c for responsible infosec systems. 
 
-Active blogger on medium on recent attacks, exploits, how to perform CVE’s and secure practices, ML privacy & Security, recent technology upgrades etc. shared on various platforms such as (linkedin, discord, slack..infosec communities). 
+Active blogger on medium on recent attacks, exploits, secure coding practices, ML privacy & Security, recent technology/CVE's etc. shared on various platforms such as (linkedin, discord, slack..infosec communities). 
 
 Participated in informal meets, discussions, social mixers for Cyware, Decrypt, DSCI (Data Security Council of India), Nullcon, CTF’s.   
 
-Member of ISC2, ISACA – Detroit Chapter
-former member of Syracuse & Mumbai Chapter.
+Member of ISC2, ISACA – Detroit Chapter.  former member of Syracuse & Mumbai Chapter.
 
 
 CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (scheduled - 08/23), Comp TIA security+ - (scheduled - 09/23) .
