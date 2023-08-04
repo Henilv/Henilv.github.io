@@ -2,14 +2,14 @@
 
 Cyber security engineer with hands-on offensive and defensive practices and foundations in networking/routing protocols. 
 
-Research area:  privacy & security of machine learning and ml for endpoint security, P.A.T.E for privacy.
+Research area:  privacy & security of machine learning, ml for endpoint security, P.A.T.E for privacy.
 
 
 Advocate for for stronger cyber literacy and awareness of g.r.c for responsible infosec systems. 
 
 Active blogger on medium on recent attacks, exploits, secure coding practices, ML privacy & Security, recent technology/CVE's etc. shared on various platforms such as (linkedin, discord, slack..infosec communities). 
 
-Participated in informal meets, discussions, social mixers for Cyware, Decrypt, DSCI (Data Security Council of India), Nullcon, CTF’s.   
+Participated in informal/formal meets, discussions, social mixers for Cyware, Decrypt, DSCI (Data Security Council of India), Nullcon, CTF’s.   
 
 Member of ISC2, ISACA – Detroit Chapter.  former member of Syracuse & Mumbai Chapter.
 
