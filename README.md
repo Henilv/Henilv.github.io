@@ -32,6 +32,10 @@ CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (scheduled -
 [iot edge sensors_ids nb](https://github.com/Henilv/IoT-app_sec/tree/main)
 
 
+[Fairness in algorithmic decision making](https://github.com/Henilv/Algorithmic_Fairness_in_decision-making/tree/main)
+
+
+
 [research](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
 
 
