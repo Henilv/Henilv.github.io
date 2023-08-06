@@ -8,7 +8,7 @@ Advocate for stronger cyber literacy and awareness of G.R.C for responsible info
 
 Active blogger on medium on recent attacks, exploits, secure coding practices, ML privacy & Security, recent technology/CVE's etc. shared on various platforms such as (linkedin, discord, slack..infosec communities). 
 
-Participated in informal/formal meets, discussions, social mixers for Cyware, Decrypt, DSCI (Data Security Council of India), Nullcon, CTF’s.   
+Participated in informal/formal meets, discussions, social mixers for Cyware, Decrypt, Mumbai Ethical Hacking Chapter, OWASP Mumbai, DSCI (Data Security Council of India), Nullcon, CTF’s.   
 
 Member of ISC2, ISACA – Detroit Chapter.  former member of Syracuse & Mumbai Chapter.
 
