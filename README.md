@@ -15,28 +15,28 @@ Member of ISC2, ISACA – Detroit Chapter.  former member of Syracuse & Mumbai C
 CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (08/23), Comp TIA security+ - (09/23) .
 
 
-[linkedin](https://www.linkedin.com/in/henil-vedant/)
+[Linkedin](https://www.linkedin.com/in/henil-vedant/)
 
 
-[blogs](https://medium.com/@hhv8051)
+[Blogs](https://medium.com/@hhv8051)
 
 
-[CVE's Submissions]()
+[Cve's Submissions]()
 
 
-[ml privacy & security nb](https://github.com/Henilv/MachineLearning_Privacy-Security)
+[ML privacy & security nb](https://github.com/Henilv/MachineLearning_Privacy-Security)
 
 
-[computer security reports](https://github.com/Henilv/Computer_Security-attacks)
+[Computer Security reports](https://github.com/Henilv/Computer_Security-attacks)
 
 
-[iot edge sensors_ids nb](https://github.com/Henilv/IoT-app_sec/tree/main)
+[Iot edge sensors_ids nb](https://github.com/Henilv/IoT-app_sec/tree/main)
 
 
 [Fairness in algorithmic decision making](https://github.com/Henilv/Algorithmic_Fairness_in_decision-making/tree/main)
 
 
-[research](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
+[Research](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
 
 
 
