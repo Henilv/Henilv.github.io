@@ -15,13 +15,13 @@ Member of ISC2, ISACA – Detroit Chapter.  former member of Syracuse & Mumbai C
 CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (08/23), Comp TIA security+ - (09/23) .
 
 
-[CVE's]()
-
-
 [linkedin](https://www.linkedin.com/in/henil-vedant/)
 
 
 [blogs](https://medium.com/@hhv8051)
+
+
+[CVE's Submissions]()
 
 
 [ml privacy & security nb](https://github.com/Henilv/MachineLearning_Privacy-Security)
