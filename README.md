@@ -5,7 +5,7 @@ Cyber security engineer with hands-on offensive and defensive practices and foun
 Research area:  privacy & security of machine learning, ml for endpoint security, P.A.T.E for privacy.
 
 
-Advocate for for stronger cyber literacy and awareness of g.r.c for responsible infosec systems. 
+Advocate for stronger cyber literacy and awareness of g.r.c for responsible infosec systems. 
 
 Active blogger on medium on recent attacks, exploits, secure coding practices, ML privacy & Security, recent technology/CVE's etc. shared on various platforms such as (linkedin, discord, slack..infosec communities). 
 
