@@ -21,7 +21,7 @@ CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (08/23), Com
 [Blogs](https://medium.com/@hhv8051)
 
 
-[Cve's Submissions]()
+[CVE-Submissions]()
 
 
 [ML privacy & security nb](https://github.com/Henilv/MachineLearning_Privacy-Security)
