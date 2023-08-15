@@ -21,6 +21,9 @@ CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (08/23), Com
 [Blogs](https://medium.com/@hhv8051)
 
 
+[OWASP-WebSecurityVulnerability-SQLi](https://medium.com/@hhv8051/owasp-web-vulnerability-sqli-its-prevention-using-ml-for-endpoint-security-4fdac0ec926d)
+
+
 [CVE-Submissions]()
 
 
