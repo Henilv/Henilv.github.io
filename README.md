@@ -1,4 +1,4 @@
-# henil vedant   - research assistant, syracuse university
+# henil vedant   - security research assistant, syracuse university
 
 Cyber security engineer with hands-on offensive and defensive practices with foundations in networking/routing protocols. 
 
@@ -39,7 +39,7 @@ CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (08/23), Com
 [Fairness in algorithmic decision making](https://github.com/Henilv/Algorithmic_Fairness_in_decision-making/tree/main)
 
 
-[Research](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
+[OWASP Vuln_patch](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24)
 
 
 
