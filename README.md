@@ -1,4 +1,4 @@
-# henil vedant   - security research assistant, syracuse university
+# henil vedant   - security researcher 
 
 Cyber security engineer with hands-on offensive and defensive practices with foundations in networking/routing protocols. 
 
