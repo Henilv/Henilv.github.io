@@ -2,6 +2,8 @@
 
 Cyber security engineer with hands-on offensive and defensive practices with foundations in networking/routing protocols. 
 
+Currently working with Lucid Motors, CA as vehicle security analyst.
+
 Research area:  privacy & security of machine learning, ml for endpoint security, P.A.T.E for privacy.
 
 Advocate for stronger cyber literacy and awareness of G.R.C for responsible infosec systems. 
@@ -10,9 +12,8 @@ Active blogger on medium on recent attacks, exploits, secure coding practices, M
 
 Participated in informal/formal meets, discussions, social mixers for Cyware, Decrypt, Mumbai Ethical Hacking Meetup, OWASP Mumbai, DSCI (Data Security Council of India), Nullcon, CTF’s.   
 
-Member of ISC2, ISACA – Detroit Chapter.  former member of Syracuse & Mumbai Chapter.
+Member of ISC2, ISACA – former Detroit Chapter & Mumbai Chapter, Current Silicon Valley Chapter.
 
-CISEH (Information Security & Ethical Hacker - 2019 certified, CCNA (08/23), Comp TIA security+ - (09/23) .
 
 
 [Linkedin](https://www.linkedin.com/in/henil-vedant/)
