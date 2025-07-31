@@ -1,7 +1,5 @@
 # henil vedant   - offensive security researcher 
 
-Cyber security engineer with hands-on offensive and defensive practices with foundations in networking/routing protocols. 
-
 Research area: Field driven formalization of asset centric security gaps.
 
 Member of ISC2, ISACA – former Detroit Chapter & Mumbai Chapter, Current Silicon Valley Chapter.
