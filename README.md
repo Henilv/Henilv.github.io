@@ -4,7 +4,7 @@ Research area: Field driven formalization of asset centric security gaps.
 
 Member of ISC2, ISACA – former Detroit Chapter & Mumbai Chapter, Current Silicon Valley Chapter.
 
-[Linkedin](https://www.linkedin.com/in/henil-vedant/)
+[Linkedin]([https://www.linkedin.com/in/henil-vedant/](https://www.linkedin.com/in/ħenil-v-974257347/)
 
 
 [Blogs](https://medium.com/@hhv8051)
