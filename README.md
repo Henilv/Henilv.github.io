@@ -1,4 +1,4 @@
-<!-- Cyberpunk Terminal Split-Screen README -->
+<!-- Cyberpunk Terminal README with reloadable dialog -->
 
 <div style="display:flex; height:90vh; font-family:'Courier New', monospace;">
 
@@ -6,9 +6,6 @@
   <div id="terminal-panel" style="background-color:black; color:#00ff00; width:60%; padding:20px; overflow-y:auto; position:relative;">
     <div id="boot-dialog" style="white-space:pre; line-height:1.2em;"></div>
     <div id="typing-text"></div><span id="cursor" style="display:inline-block; background-color:#00ff00; width:10px; animation: blink 1s infinite;"></span>
-    <div style="white-space:pre; font-family:monospace; line-height:1em; margin-top:10px;">
-      ⢀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
-    </div>
   </div>
 
   <!-- Info Panel -->
@@ -16,7 +13,6 @@
     <div style="border:1px solid #00ff00; padding:10px;">
       <h3>Quick Load Info</h3>
       <p>Henil V. – Offensive Security Researcher</p>
-      <p>Expertise in:</p>
       <ul>
         <li>Cloud & Web API Security</li>
         <li>Adversarial ML & Privacy</li>
@@ -29,6 +25,7 @@
         <li><a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank" style="color:#39ff14;">ML Privacy & Security</a></li>
         <li><a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank" style="color:#39ff14;">IoT Edge Sensors IDS</a></li>
       </ul>
+      <button id="reload-dialog" style="background:#111; color:#0f0; padding:8px; border:none; cursor:pointer;">Reload Terminal Dialog</button>
     </div>
   </div>
 
@@ -96,27 +93,35 @@ Currently working on adversarial ML, IDS profiling, IoT attacks, and web/cloud s
 From strategic perspective, leveraging knowledgebase for secure DLC, DFIR-rich playbooks, scoring metrics & governance-aligned procedures.
 `;
 
-let i=0;
-function typeBoot() {
-  if(i<bootText.length){
-    document.getElementById('boot-dialog').innerHTML += bootText.charAt(i);
-    i++;
-    setTimeout(typeBoot,10);
-  } else {
-    typeIntro(0);
+function runDialog() {
+  const bootEl = document.getElementById('boot-dialog');
+  const typingEl = document.getElementById('typing-text');
+  bootEl.innerHTML = '';
+  typingEl.innerHTML = '';
+  let i=0;
+  function typeBoot() {
+    if(i<bootText.length){
+      bootEl.innerHTML += bootText.charAt(i);
+      i++;
+      setTimeout(typeBoot,10);
+    } else {
+      typeIntro(0);
+    }
   }
+  function typeIntro(j){
+    if(j<introText.length){
+      typingEl.innerHTML += introText.charAt(j);
+      j++;
+      setTimeout(()=>typeIntro(j),20);
+    }
+  }
+  typeBoot();
 }
 
-function typeIntro(j){
-  if(j<introText.length){
-    document.getElementById('typing-text').innerHTML += introText.charAt(j);
-    j++;
-    setTimeout(()=>typeIntro(j),20);
-  }
-}
+window.onload = runDialog;
+document.getElementById('reload-dialog').addEventListener('click', runDialog);
 
-window.onload = typeBoot;
-
+// Collapsibles
 const collapsibles = document.getElementsByClassName("collapsible");
 for(let k=0;k<collapsibles.length;k++){
   collapsibles[k].addEventListener("click",function(){
