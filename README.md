@@ -1,6 +1,10 @@
 <!-- Cyberpunk Terminal Split-Screen README -->
 
-<div style="display:flex; height:90vh; font-family:'Courier New', monospace; position:relative;">
+<div style="background-color:#0b3d91; /* BSOD blue */
+            min-height:100vh;
+            display:flex; 
+            font-family:'Courier New', monospace; 
+            position:relative;">
 
   <!-- Terminal Panel -->
   <div id="terminal-panel" style="background-color:black; color:#00ff00; width:60%; padding:20px; overflow-y:auto; position:relative; z-index:2;">
@@ -62,6 +66,7 @@ Threat modeling under ISO/SAE 21434 & R155/156. Automated security tests to enfo
 <strong>Current Research:</strong>  
 Pursuing PhD-level security research on system hardening & layered security approach to formalize asset-centric security gaps.  
 Building Digital Forensics & Incident Rich playbooks with strategic & operational security governance.
+
 </div>
 
 <style>
