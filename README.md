@@ -39,7 +39,7 @@ button.collapsible {
 }
 button.collapsible:hover { background-color:#222; }
 button.active { background-color:#222; } /* visually show open */
-div.content { display:block; padding:0 18px; background-color:#000; margin-bottom:10px; } /* expanded by default */
+div.content { display:block; padding:0 18px; background-color:#000; margin-bottom:10px; color:#00ff00; } /* green text */
 </style>
 
 <!-- Collapsible Sections (Expanded by Default) -->
