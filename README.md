@@ -1,22 +1,23 @@
 <!-- Cyberpunk Terminal Split-Screen README -->
 
-<div style="display:flex; height:90vh; font-family:'Courier New', monospace;">
+<div style="display:flex; height:90vh; font-family:'Courier New', monospace; position:relative;">
 
   <!-- Terminal Panel -->
-  <div id="terminal-panel" style="background-color:black; color:#00ff00; width:60%; padding:20px; overflow-y:auto; position:relative;">
+  <div id="terminal-panel" style="background-color:black; color:#00ff00; width:60%; padding:20px; overflow-y:auto; position:relative; z-index:2;">
     <div id="boot-dialog" style="white-space:pre; line-height:1.2em;"></div>
     <div id="typing-text"></div><span id="cursor" style="display:inline-block; background-color:#00ff00; width:10px; animation: blink 1s infinite;"></span>
   </div>
 
   <!-- Info Panel -->
-  <div style="background-color:black; color:#00ff00; width:40%; padding:20px; border-left:2px solid #00ff00; overflow-y:auto;">
+  <div style="background-color:black; color:#00ff00; width:40%; padding:20px; border-left:2px solid #00ff00; overflow-y:auto; z-index:2;">
     <div style="border:1px solid #00ff00; padding:10px;">
       <h3>Quick Load Info</h3>
       <p>Henil V. – Offensive Security Researcher</p>
       <ul>
         <li>Cloud & Web API Security</li>
         <li>Adversarial ML & Privacy</li>
-        <li>Infrastructure Hardening</li>
+        <li>IoT & Edge Device Security</li>
+        <li>Digital Forensics & Incident Response</li>
       </ul>
       <p>Links:</p>
       <ul>
@@ -26,6 +27,9 @@
       </ul>
     </div>
   </div>
+
+  <!-- Matrix Canvas (Behind) -->
+  <canvas id="matrix-canvas" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:1;"></canvas>
 
 </div>
 
@@ -41,6 +45,8 @@ div.full-section {
   white-space:pre-line; 
   line-height:1.2em;
   font-family:'Courier New', monospace;
+  position:relative; 
+  z-index:2;
 }
 a { color:#39ff14; text-decoration:none; }
 a:hover { color:#00ffff; }
@@ -80,6 +86,7 @@ Building Digital Forensics & Incident Rich playbooks with strategic & operationa
 </div>
 
 <script>
+// Terminal typing effect
 const bootText = `Booting cyber terminal...\nLoading modules: ████████ 100%\nInitializing environment...\nReady.\n\n`;
 const introText = `I am a Security researcher focusing on full lifecycle, identifying & mitigating vulnerabilities in cloud infra, Web APIs & microservices.
 
@@ -111,7 +118,37 @@ function runTerminal() {
   }
   typeBoot();
 }
-
 window.onload = runTerminal;
+
+// Matrix rain effect
+const canvas = document.getElementById("matrix-canvas");
+const ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const letters = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリギジヂビピウゥクスツヌフムユュルグズブプエェケセテネヘメレゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const fontSize = 16;
+const columns = canvas.width / fontSize;
+const drops = Array(Math.floor(columns)).fill(1);
+
+function drawMatrix() {
+  ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  
+  ctx.fillStyle = "#00ff00";
+  ctx.font = fontSize + "px monospace";
+  
+  for(let i = 0; i < drops.length; i++) {
+    const text = letters.charAt(Math.floor(Math.random()*letters.length));
+    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+    
+    if(drops[i]*fontSize > canvas.height && Math.random() > 0.975) {
+      drops[i] = 0;
+    }
+    drops[i]++;
+  }
+}
+
+setInterval(drawMatrix, 50);
 </script>
 
