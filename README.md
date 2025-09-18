@@ -17,7 +17,6 @@
         <li>Cloud & Web API Security</li>
         <li>Adversarial ML & Privacy</li>
         <li>Infrastructure Hardening</li>
-        
       </ul>
       <p>Links:</p>
       <ul>
