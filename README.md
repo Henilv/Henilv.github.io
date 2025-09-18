@@ -17,7 +17,7 @@
         <li>Cloud & Web API Security</li>
         <li>Adversarial ML & Privacy</li>
         <li>IoT & Edge Device Security</li>
-        <li>Infrastructure Hardening</li>
+        <li>Digital Forensics & Incident Response</li>
       </ul>
       <p>Links:</p>
       <ul>
@@ -32,57 +32,52 @@
 
 <style>
 @keyframes blink { 0%,50%,100% {opacity:1;} 25%,75%{opacity:0;} }
-button.collapsible {
-  background-color:#111; color:#0f0; cursor:pointer;
-  padding:10px; width:100%; border:none; text-align:left;
-  outline:none; font-size:16px; margin-top:5px;
+
+div.full-section {
+  background-color:black; 
+  color:#00ff00; 
+  padding:20px; 
+  border:2px solid #00ff00; 
+  margin-top:20px; 
+  white-space:pre-line; 
+  line-height:1.2em;
+  font-family:'Courier New', monospace;
 }
-button.collapsible:hover { background-color:#222; }
-button.active { background-color:#222; } /* visually show open */
-div.content { display:block; padding:0 18px; background-color:#000; margin-bottom:10px; color:#00ff00; } /* green text */
+a { color:#39ff14; text-decoration:none; }
+a:hover { color:#00ffff; }
 </style>
 
-<!-- Collapsible Sections (Expanded by Default) -->
-<button class="collapsible active">Education & Labs</button>
-<div class="content">
+<!-- Full Black Box for All Sections -->
+<div class="full-section">
+<strong>Education & Labs:</strong>  
 During my Masters, I performed hands-on exploits in educational in-house VMs and open-sourced labs:  
-<a href="https://seedsecuritylabs.org/Labs_20.04/" target="_blank" style="color:#39ff14;">Seed Security Labs</a>  
-Lab reports & exploits: <a href="https://github.com/Henilv/Computer_Security-attacks" target="_blank" style="color:#39ff14;">Computer Security Reports</a>
-</div>
+<a href="https://seedsecuritylabs.org/Labs_20.04/" target="_blank">Seed Security Labs</a>  
+Lab reports & exploits: <a href="https://github.com/Henilv/Computer_Security-attacks" target="_blank">Computer Security Reports</a>
 
-<button class="collapsible active">Adversarial ML & Privacy</button>
-<div class="content">
+<strong>Adversarial ML & Privacy:</strong>  
 Experimented with frameworks like CleverHans on datasets such as FMNIST.  
 Explored privacy-preserving ML including Machine Unlearning & Differential Privacy:  
-<a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank" style="color:#39ff14;">ML Privacy & Security nb</a>  
+<a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank">ML Privacy & Security nb</a>  
 Enhanced IDS/IPS signatures & explored fairness:  
-<a href="https://github.com/Henilv/Algorithmic_Fairness_in-decision-making/tree/main" target="_blank" style="color:#39ff14;">Algorithmic Fairness</a>
-</div>
+<a href="https://github.com/Henilv/Algorithmic_Fairness_in-decision-making/tree/main" target="_blank">Algorithmic Fairness</a>
 
-<button class="collapsible active">IoT & Edge Security</button>
-<div class="content">
+<strong>IoT & Edge Security:</strong>  
 Formalized IoT attacks & security for edge sensors with MQTT protocols:  
-<a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank" style="color:#39ff14;">IoT Edge Sensors IDS</a>
-</div>
+<a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank">IoT Edge Sensors IDS</a>
 
-<button class="collapsible active">Web & Cloud Security</button>
-<div class="content">
+<strong>Web & Cloud Security:</strong>  
 Performed black-box offensive security testing on vehicle & fleet microservices, MQTT brokers, OTA servers, and cloud infra.  
 Threat modeling under ISO/SAE 21434 & R155/156. Automated security tests to enforce guardrails.
-</div>
 
-<button class="collapsible active">Current Research</button>
-<div class="content">
+<strong>Current Research:</strong>  
 Pursuing PhD-level security research on system hardening & layered security approach.  
 Building Digital Forensics & Incident Rich playbooks with strategic & operational security governance.
-</div>
 
-<button class="collapsible active">Connect & Blogs</button>
-<div class="content">
-<a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank" style="color:#39ff14;">LinkedIn</a>  
-<a href="https://medium.com/@hhv8051/owasp-web-vulnerability-sqli-its-prevention-using-ml-for-endpoint-security-4fdac0ec926d" target="_blank" style="color:#39ff14;">OWASP SQLi Paper</a>  
-<a href="https://medium.com/@hhv8051/privacy-security-of-m-l-vs-privacy-security-using-ml-96e57fbb7102" target="_blank" style="color:#39ff14;">ML Privacy/Security</a>  
-<a href="https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24" target="_blank" style="color:#39ff14;">OWASP Vuln Patch</a>
+<strong>Connect & Blogs:</strong>  
+<a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank">LinkedIn</a>  
+<a href="https://medium.com/@hhv8051/owasp-web-vulnerability-sqli-its-prevention-using-ml-for-endpoint-security-4fdac0ec926d" target="_blank">OWASP SQLi Paper</a>  
+<a href="https://medium.com/@hhv8051/privacy-security-of-m-l-vs-privacy-security-using-ml-96e57fbb7102" target="_blank">ML Privacy/Security</a>  
+<a href="https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24" target="_blank">OWASP Vuln Patch</a>
 </div>
 
 <script>
@@ -119,14 +114,5 @@ function runTerminal() {
 }
 
 window.onload = runTerminal;
-
-// Collapsibles toggle still works
-const collapsibles = document.getElementsByClassName("collapsible");
-for(let k=0;k<collapsibles.length;k++){
-  collapsibles[k].addEventListener("click",function(){
-    this.classList.toggle("active");
-    const content=this.nextElementSibling;
-    content.style.display=(content.style.display==="block")?"none":"block";
-  });
-}
 </script>
+
