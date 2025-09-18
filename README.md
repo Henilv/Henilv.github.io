@@ -20,12 +20,12 @@
       </ul>
       <p>Links:</p>
       <ul>
-        <li><a href="https://github.com/Henilv/Computer_Security-attacks" target="_blank" style="color:#39ff14;">Lab Reports & Exploits</a></li>
-        <li><a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank" style="color:#39ff14;">ML Privacy & Security</a></li>
-        <li><a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank" style="color:#39ff14;">IoT Edge Sensors IDS</a></li>
+        <li><a href="https://github.com/Henilv/Computer_Security-attacks" target="_blank">Lab Reports & Exploits</a></li>
+        <li><a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank">ML Privacy & Security</a></li>
+        <li><a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank">IoT Edge Sensors IDS</a></li>
         <strong> Contact & Blogs:</strong>
-        <li><a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank">LinkedIn</a>  
-        <li><a href="https://medium.com/@hhv8051/owasp-web-vulnerability-sqli-its-prevention-using-ml-for-endpoint-security-4fdac0ec926d" target="_blank">OWASP SQLi Paper</a></li>  
+        <li><a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://medium.com/@hhv8051/owasp-web-vulnerability-sqli-its-prevention-using-ml-for-endpoint-security-4fdac0ec926d" target="_blank">OWASP SQLi Paper</a></li>
         <li><a href="https://medium.com/@hhv8051/privacy-security-of-m-l-vs-privacy-security-using-ml-96e57fbb7102" target="_blank">ML Privacy/Security</a></li>
         <li><a href="https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24" target="_blank">OWASP Vuln Patch</a></li>
       </ul>
@@ -37,26 +37,7 @@
 
 </div>
 
-<style>
-@keyframes blink { 0%,50%,100% {opacity:1;} 25%,75%{opacity:0;} }
-
-div.full-section {
-  background-color:black; 
-  color:#00ff00; 
-  padding:20px; 
-  border:2px solid #00ff00; 
-  margin-top:20px; 
-  white-space:pre-line; 
-  line-height:1.2em;
-  font-family:'Courier New', monospace;
-  position:relative; 
-  z-index:2;
-}
-a { color:#39ff14; text-decoration:none; }
-a:hover { color:#00ffff; }
-</style>
-
-<!-- Full Black Box for All Sections -->
+<!-- Full Black Box for All Sections Below -->
 <div class="full-section">
 <strong>Education & Labs:</strong>  
 During my Masters, I performed hands-on exploits in educational in-house VMs and open-sourced labs:  
@@ -81,8 +62,26 @@ Threat modeling under ISO/SAE 21434 & R155/156. Automated security tests to enfo
 <strong>Current Research:</strong>  
 Pursuing PhD-level security research on system hardening & layered security approach to formalize asset-centric security gaps.  
 Building Digital Forensics & Incident Rich playbooks with strategic & operational security governance.
-
 </div>
+
+<style>
+@keyframes blink { 0%,50%,100% {opacity:1;} 25%,75%{opacity:0;} }
+
+div.full-section {
+  background-color:black; 
+  color:#00ff00; 
+  padding:20px; 
+  border:2px solid #00ff00; 
+  margin-top:20px; 
+  white-space:pre-line; 
+  line-height:1.2em;
+  font-family:'Courier New', monospace;
+  position:relative; 
+  z-index:2;
+}
+a { color:#39ff14; text-decoration:none; }
+a:hover { color:#00ffff; }
+</style>
 
 <script>
 // Terminal typing effect
@@ -116,5 +115,5 @@ function runTerminal() {
   typeBoot();
 }
 window.onload = runTerminal;
-
+</script>
 
