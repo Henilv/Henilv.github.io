@@ -16,7 +16,7 @@
   }
 </style>
 
-# Henil Vedant – Offensive Security Researcher
+# Henil V. – Offensive Security Researcher
 
 I am a Security researcher with focus aligned towards full lifecycle, focusing on identifying and mitigating vulnerabilities in cloud infrastructure, Web APIs, and microservices through structured threat modeling.
 
