@@ -23,8 +23,8 @@
         <li><a href="https://github.com/Henilv/Computer_Security-attacks" target="_blank" style="color:#39ff14;">Lab Reports & Exploits</a></li>
         <li><a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank" style="color:#39ff14;">ML Privacy & Security</a></li>
         <li><a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank" style="color:#39ff14;">IoT Edge Sensors IDS</a></li>
-        <strong> Contact & Blogs:</strong>  
-            <a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank">LinkedIn</a>  
+        <strong><a Contact & Blogs:</strong></a>
+<a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank">LinkedIn</a>  
 <a href="https://medium.com/@hhv8051/owasp-web-vulnerability-sqli-its-prevention-using-ml-for-endpoint-security-4fdac0ec926d" target="_blank">OWASP SQLi Paper</a>  
 <a href="https://medium.com/@hhv8051/privacy-security-of-m-l-vs-privacy-security-using-ml-96e57fbb7102" target="_blank">ML Privacy/Security</a>  
 <a href="https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24" target="_blank">OWASP Vuln Patch</a>
@@ -87,9 +87,7 @@ Building Digital Forensics & Incident Rich playbooks with strategic & operationa
 <script>
 // Terminal typing effect
 const bootText = `Booting cyber terminal...\nLoading modules: ████████ 100%\nInitializing environment...\nReady.\n\n`;
-const introText = `I am a Security researcher focusing on full lifecycle, identifying & mitigating vulnerabilities in cloud infra, Web APIs & microservices.
-
-Currently working on adversarial ML, IDS profiling, IoT attacks, and web/cloud security. 
+const introText = `I am a Security researcher focusing on full lifecycle, identifying & mitigating vulnerabilities with infrastructure hardening, Threat modeling & offensive exploits for Web APIs & microservices. 
 From strategic perspective, leveraging knowledgebase for secure DLC, DFIR-rich playbooks, scoring metrics & governance-aligned procedures.
 `;
 
