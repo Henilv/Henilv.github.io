@@ -79,7 +79,7 @@ Performed black-box offensive security testing on vehicle & fleet microservices,
 Threat modeling under ISO/SAE 21434 & R155/156. Automated security tests to enforce guardrails.
 
 <strong>Current Research:</strong>  
-Pursuing PhD-level security research on system hardening & layered security approach.  
+Pursuing PhD-level security research on system hardening & layered security approach to formalize asset-centric security gaps.  
 Building Digital Forensics & Incident Rich playbooks with strategic & operational security governance.
 
 </div>
