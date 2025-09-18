@@ -34,7 +34,7 @@
 </head>
 <body>
 
-<h1>Henil V. – Offensive Security Researcher</h1>
+
 
 <div class="art">
 ⢀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
