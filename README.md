@@ -1,13 +1,38 @@
-<!-- Hacker Terminal Cyberpunk README -->
+<!-- Cyberpunk Terminal Split-Screen README -->
 
-<div style="background-color:black; color:#00ff00; font-family:'Courier New', monospace; padding:20px;">
+<div style="display:flex; height:90vh; font-family:'Courier New', monospace;">
 
-<div style="white-space:pre; font-family:monospace; line-height:1em;">
-⢀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+  <!-- Terminal Panel -->
+  <div id="terminal-panel" style="background-color:black; color:#00ff00; width:60%; padding:20px; overflow-y:auto; position:relative;">
+    <div id="boot-dialog" style="white-space:pre; line-height:1.2em;"></div>
+    <div id="typing-text"></div><span id="cursor" style="display:inline-block; background-color:#00ff00; width:10px; animation: blink 1s infinite;"></span>
+    <div style="white-space:pre; font-family:monospace; line-height:1em; margin-top:10px;">
+      ⢀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
+    </div>
+  </div>
+
+  <!-- Info Panel -->
+  <div style="background-color:black; color:#00ff00; width:40%; padding:20px; border-left:2px solid #00ff00; overflow-y:auto;">
+    <div style="border:1px solid #00ff00; padding:10px;">
+      <h3>Quick Load Info</h3>
+      <p>Henil V. – Offensive Security Researcher</p>
+      <p>Expertise in:</p>
+      <ul>
+        <li>Cloud & Web API Security</li>
+        <li>Adversarial ML & Privacy</li>
+        <li>IoT & Edge Device Security</li>
+        <li>Digital Forensics & Incident Response</li>
+      </ul>
+      <p>Links:</p>
+      <ul>
+        <li><a href="https://github.com/Henilv/Computer_Security-attacks" target="_blank" style="color:#39ff14;">Lab Reports & Exploits</a></li>
+        <li><a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank" style="color:#39ff14;">ML Privacy & Security</a></li>
+        <li><a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank" style="color:#39ff14;">IoT Edge Sensors IDS</a></li>
+      </ul>
+    </div>
+  </div>
+
 </div>
-
-<div id="typing-text"></div><span id="cursor" style="display:inline-block; background-color:#00ff00; width:10px; animation: blink 1s infinite;"></span>
 
 <style>
 @keyframes blink { 0%,50%,100% {opacity:1;} 25%,75%{opacity:0;} }
@@ -20,6 +45,7 @@ button.collapsible:hover { background-color:#222; }
 div.content { display:none; padding:0 18px; background-color:#000; margin-bottom:10px; }
 </style>
 
+<!-- Collapsible Sections -->
 <button class="collapsible">Education & Labs</button>
 <div class="content">
 During my Masters, I performed hands-on exploits in educational in-house VMs and open-sourced labs:  
@@ -54,11 +80,6 @@ Pursuing PhD-level security research on system hardening & layered security appr
 Building Digital Forensics & Incident Rich playbooks with strategic & operational security governance.
 </div>
 
-<button class="collapsible">Professional Memberships</button>
-<div class="content">
-Member of ISC2, ISACA – former Detroit & Mumbai Chapters, currently Silicon Valley Chapter.
-</div>
-
 <button class="collapsible">Connect & Blogs</button>
 <div class="content">
 <a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank" style="color:#39ff14;">LinkedIn</a>  
@@ -67,42 +88,42 @@ Member of ISC2, ISACA – former Detroit & Mumbai Chapters, currently Silicon Va
 <a href="https://link.springer.com/chapter/10.1007/978-981-16-6285-0_24" target="_blank" style="color:#39ff14;">OWASP Vuln Patch</a>
 </div>
 
-<div style="white-space:pre; font-family:monospace; line-height:1em;">
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-</div>
-
 <script>
-const text = `I am a Security researcher focusing on full lifecycle, identifying & mitigating vulnerabilities in cloud infra, Web APIs & microservices.
+const bootText = `Booting cyber terminal...\nLoading modules: ████████ 100%\nInitializing environment...\nReady.\n\n`;
+const introText = `I am a Security researcher focusing on full lifecycle, identifying & mitigating vulnerabilities in cloud infra, Web APIs & microservices.
 
 Currently working on adversarial ML, IDS profiling, IoT attacks, and web/cloud security. 
 From strategic perspective, leveraging knowledgebase for secure DLC, DFIR-rich playbooks, scoring metrics & governance-aligned procedures.
 `;
 
-let i = 0;
-function typeWriter() {
-  if (i < text.length) {
-    document.getElementById("typing-text").innerHTML += text.charAt(i);
+let i=0;
+function typeBoot() {
+  if(i<bootText.length){
+    document.getElementById('boot-dialog').innerHTML += bootText.charAt(i);
     i++;
-    setTimeout(typeWriter, 20);
+    setTimeout(typeBoot,10);
+  } else {
+    typeIntro(0);
   }
 }
 
-window.onload = function() {
-  typeWriter();
-  
-  const collapsibles = document.getElementsByClassName("collapsible");
-  for (let j = 0; j < collapsibles.length; j++) {
-    collapsibles[j].addEventListener("click", function() {
-      this.classList.toggle("active");
-      const content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
+function typeIntro(j){
+  if(j<introText.length){
+    document.getElementById('typing-text').innerHTML += introText.charAt(j);
+    j++;
+    setTimeout(()=>typeIntro(j),20);
   }
-};
+}
+
+window.onload = typeBoot;
+
+const collapsibles = document.getElementsByClassName("collapsible");
+for(let k=0;k<collapsibles.length;k++){
+  collapsibles[k].addEventListener("click",function(){
+    this.classList.toggle("active");
+    const content=this.nextElementSibling;
+    content.style.display=(content.style.display==="block")?"none":"block";
+  });
+}
 </script>
 
-</div>
