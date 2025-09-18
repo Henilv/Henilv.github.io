@@ -1,4 +1,4 @@
-<!-- Cyberpunk Terminal README with reloadable dialog -->
+<!-- Cyberpunk Terminal Split-Screen README -->
 
 <div style="display:flex; height:90vh; font-family:'Courier New', monospace;">
 
@@ -25,7 +25,6 @@
         <li><a href="https://github.com/Henilv/MachineLearning_Privacy-Security" target="_blank" style="color:#39ff14;">ML Privacy & Security</a></li>
         <li><a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank" style="color:#39ff14;">IoT Edge Sensors IDS</a></li>
       </ul>
-      <button id="reload-dialog" style="background:#111; color:#0f0; padding:8px; border:none; cursor:pointer;">Reload Terminal Dialog</button>
     </div>
   </div>
 
@@ -39,18 +38,19 @@ button.collapsible {
   outline:none; font-size:16px; margin-top:5px;
 }
 button.collapsible:hover { background-color:#222; }
-div.content { display:none; padding:0 18px; background-color:#000; margin-bottom:10px; }
+button.active { background-color:#222; } /* visually show open */
+div.content { display:block; padding:0 18px; background-color:#000; margin-bottom:10px; } /* expanded by default */
 </style>
 
-<!-- Collapsible Sections -->
-<button class="collapsible">Education & Labs</button>
+<!-- Collapsible Sections (Expanded by Default) -->
+<button class="collapsible active">Education & Labs</button>
 <div class="content">
 During my Masters, I performed hands-on exploits in educational in-house VMs and open-sourced labs:  
 <a href="https://seedsecuritylabs.org/Labs_20.04/" target="_blank" style="color:#39ff14;">Seed Security Labs</a>  
 Lab reports & exploits: <a href="https://github.com/Henilv/Computer_Security-attacks" target="_blank" style="color:#39ff14;">Computer Security Reports</a>
 </div>
 
-<button class="collapsible">Adversarial ML & Privacy</button>
+<button class="collapsible active">Adversarial ML & Privacy</button>
 <div class="content">
 Experimented with frameworks like CleverHans on datasets such as FMNIST.  
 Explored privacy-preserving ML including Machine Unlearning & Differential Privacy:  
@@ -59,25 +59,25 @@ Enhanced IDS/IPS signatures & explored fairness:
 <a href="https://github.com/Henilv/Algorithmic_Fairness_in-decision-making/tree/main" target="_blank" style="color:#39ff14;">Algorithmic Fairness</a>
 </div>
 
-<button class="collapsible">IoT & Edge Security</button>
+<button class="collapsible active">IoT & Edge Security</button>
 <div class="content">
 Formalized IoT attacks & security for edge sensors with MQTT protocols:  
 <a href="https://github.com/Henilv/IoT-app_sec/tree/main" target="_blank" style="color:#39ff14;">IoT Edge Sensors IDS</a>
 </div>
 
-<button class="collapsible">Web & Cloud Security</button>
+<button class="collapsible active">Web & Cloud Security</button>
 <div class="content">
 Performed black-box offensive security testing on vehicle & fleet microservices, MQTT brokers, OTA servers, and cloud infra.  
 Threat modeling under ISO/SAE 21434 & R155/156. Automated security tests to enforce guardrails.
 </div>
 
-<button class="collapsible">Current Research</button>
+<button class="collapsible active">Current Research</button>
 <div class="content">
 Pursuing PhD-level security research on system hardening & layered security approach.  
 Building Digital Forensics & Incident Rich playbooks with strategic & operational security governance.
 </div>
 
-<button class="collapsible">Connect & Blogs</button>
+<button class="collapsible active">Connect & Blogs</button>
 <div class="content">
 <a href="https://www.linkedin.com/in/ħenil-v-974257347/" target="_blank" style="color:#39ff14;">LinkedIn</a>  
 <a href="https://medium.com/@hhv8051/owasp-web-vulnerability-sqli-its-prevention-using-ml-for-endpoint-security-4fdac0ec926d" target="_blank" style="color:#39ff14;">OWASP SQLi Paper</a>  
@@ -93,7 +93,7 @@ Currently working on adversarial ML, IDS profiling, IoT attacks, and web/cloud s
 From strategic perspective, leveraging knowledgebase for secure DLC, DFIR-rich playbooks, scoring metrics & governance-aligned procedures.
 `;
 
-function runDialog() {
+function runTerminal() {
   const bootEl = document.getElementById('boot-dialog');
   const typingEl = document.getElementById('typing-text');
   bootEl.innerHTML = '';
@@ -118,10 +118,9 @@ function runDialog() {
   typeBoot();
 }
 
-window.onload = runDialog;
-document.getElementById('reload-dialog').addEventListener('click', runDialog);
+window.onload = runTerminal;
 
-// Collapsibles
+// Collapsibles toggle still works
 const collapsibles = document.getElementsByClassName("collapsible");
 for(let k=0;k<collapsibles.length;k++){
   collapsibles[k].addEventListener("click",function(){
@@ -131,4 +130,3 @@ for(let k=0;k<collapsibles.length;k++){
   });
 }
 </script>
-
