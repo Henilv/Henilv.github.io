@@ -16,8 +16,7 @@
       <ul>
         <li>Cloud & Web API Security</li>
         <li>Adversarial ML & Privacy</li>
-        <li>IoT & Edge Device Security</li>
-        <li>Digital Forensics & Incident Response</li>
+        <li>Infrastructure Hardening</li>
       </ul>
       <p>Links:</p>
       <ul>
