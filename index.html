@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Henil Vedant — Security Research</title>
 <style>
+  /* Japandi-inspired palette: soft neutrals, muted greens, natural browns */
   body {
     margin: 0;
-    background: #f4f2ee; /* Japandi neutral */
-    color: #1c1c1c;
     font-family: 'Fira Code', monospace;
+    background: #ece8e1; /* soft neutral background */
+    color: #2e2e2e; /* muted text */
     padding: 40px 20px;
   }
   .container {
     max-width: 900px;
     margin: auto;
     padding: 30px;
-    background: #ffffff;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background: #f7f5f0; /* slightly warmer container */
+    border-radius: 12px;
+    border: 1px solid #d6cfc2;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   }
   h1 {
     text-align: center;
-    color: #0f5132; /* muted deep green */
+    color: #3b4a3b; /* muted sage green */
     margin-bottom: 5px;
   }
   h2 {
     color: #5c6f68; /* Japandi sage */
-    margin-top: 40px;
+    margin-top: 35px;
+    border-bottom: 1px solid #d6cfc2;
+    padding-bottom: 5px;
   }
   p {
     line-height: 1.6em;
+    margin-bottom: 15px;
   }
   select {
     width: 100%;
@@ -40,25 +44,29 @@
     border-radius: 6px;
     font-size: 1rem;
     border: 1px solid #ccc;
-    background: #fafafa;
+    background: #f0ebe3;
+    color: #2e2e2e;
     font-family: 'Fira Code', monospace;
   }
   a {
-    color: #004b43;
+    color: #3b4a3b;
     text-decoration: none;
+    transition: all 0.2s;
   }
   a:hover {
+    color: #567568;
     text-decoration: underline;
   }
   .placeholder {
     color: #999;
   }
+  ul { padding-left: 20px; }
 </style>
 </head>
 <body>
   <div class="container">
     <h1>Henil Vedant</h1>
-    <p style="text-align:center; color:#333;">Offensive Security Researcher</p>
+    <p style="text-align:center; color:#3b4a3b;">Offensive Security Researcher</p>
 
     <!-- Web & System Security (Academia Exploits - SEED Labs) -->
     <h2>Web & System Security (Academia Exploits — SEED Labs)</h2>
@@ -118,9 +126,9 @@
       My work explores mathematically grounded privacy‑preserving mechanisms such as
       <strong>PATE</strong>, federated learning, and <strong>differential privacy</strong>, all offering
       quantifiable privacy guarantees for individuals under regulations like GDPR.
-      I have also explored <strong>machine unlearning</strong>—a lesser‑known but crucial approach where a
-      model can provably "forget" specific data points it was trained on, reducing residual risk and
-      enabling compliance with user‑data erasure requirements.
+      I have also explored <strong>machine unlearning</strong>—a lesser-known approach where a
+      model can provably "forget" specific data points it was trained on, reducing residual risk
+      and enabling compliance with user-data erasure requirements.
     </p>
     <select onchange="if(this.value) window.open(this.value, '_blank')">
       <option value="">Privacy Preserving ML</option>
@@ -132,7 +140,6 @@
     </select>
 
     <h2>Contact & Profiles</h2>
-    <p>Add your links by editing the placeholders below:</p>
     <ul>
       <li><a href="#">GitHub Profile</a></li>
       <li><a href="#">LinkedIn</a></li>
