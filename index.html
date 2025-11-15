@@ -1,153 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Henil Vedant — Security Research</title>
+
 <style>
-  /* Japandi-inspired palette: soft neutrals, muted greens, natural browns */
   body {
     margin: 0;
-    font-family: 'Fira Code', monospace;
-    background: #ece8e1; /* soft neutral background */
-    color: #2e2e2e; /* muted text */
     padding: 40px 20px;
+    background-color: #0a0a0a; /* Pure terminal black */
+    color: #00ff88; /* Soft neon green (Japandi-friendly neon) */
+    font-family: "Fira Code", monospace;
+    background-image: url('https://raw.githubusercontent.com/github/explore/main/topics/octocat/octocat.png'); /* Subtle GitHub cat */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px;
+    opacity: 0.97;
   }
+
   .container {
-    max-width: 900px;
+    max-width: 880px;
     margin: auto;
     padding: 30px;
-    background: #f7f5f0; /* slightly warmer container */
-    border-radius: 12px;
-    border: 1px solid #d6cfc2;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid #00ff88;
+    border-radius: 14px;
+    box-shadow: 0px 0px 20px rgba(0,255,140,0.12);
   }
+
   h1 {
     text-align: center;
-    color: #3b4a3b; /* muted sage green */
-    margin-bottom: 5px;
+    color: #7fffb3;
+    margin-top: 0;
+    letter-spacing: 1px;
   }
+
   h2 {
-    color: #5c6f68; /* Japandi sage */
-    margin-top: 35px;
-    border-bottom: 1px solid #d6cfc2;
-    padding-bottom: 5px;
+    color: #8affc6;
+    border-bottom: 1px solid #00ff88;
+    padding-bottom: 6px;
+    margin-top: 40px;
   }
+
   p {
-    line-height: 1.6em;
-    margin-bottom: 15px;
+    line-height: 1.55em;
+    color: #c8ffd9;
   }
+
   select {
     width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 6px;
+    margin-top: 12px;
+    padding: 12px;
+    background-color: #111;
+    border: 1px solid #00ff88;
+    border-radius: 8px;
+    color: #00ff88;
     font-size: 1rem;
-    border: 1px solid #ccc;
-    background: #f0ebe3;
-    color: #2e2e2e;
-    font-family: 'Fira Code', monospace;
+    font-family: "Fira Code", monospace;
   }
+
   a {
-    color: #3b4a3b;
+    color: #7fffb3;
     text-decoration: none;
-    transition: all 0.2s;
   }
   a:hover {
-    color: #567568;
-    text-decoration: underline;
+    color: #00ffff;
   }
-  .placeholder {
-    color: #999;
-  }
-  ul { padding-left: 20px; }
 </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Henil Vedant</h1>
-    <p style="text-align:center; color:#3b4a3b;">Offensive Security Researcher</p>
+<div class="container">
 
-    <!-- Web & System Security (Academia Exploits - SEED Labs) -->
-    <h2>Web & System Security (Academia Exploits — SEED Labs)</h2>
-    <p>
-      SEED Labs formed the academic backbone of my Master's—structured as cat‑and‑mouse offensive
-      exploit labs across <strong>system-level vulnerabilities</strong> (buffer overflow, race conditions,
-      memory corruption), <strong>network exploits</strong> (protocol spoofing, packet manipulation), and
-      <strong>web exploitations</strong> such as SSRF, CSRF, XSS, and input sanitization bypasses.
-      These labs simulate real-world attacker–defender dynamics in controlled VM environments.
-    </p>
-    <select onchange="if(this.value) window.open(this.value, '_blank')">
-      <option value="">SEED & System Exploits</option>
-      <option value="https://github.com/Henilv/Computer_Security-attacks">Computer Security Attacks Repo</option>
-      <option class="placeholder">More coming soon...</option>
-      <option class="placeholder">Placeholder 1</option>
-      <option class="placeholder">Placeholder 2</option>
-      <option class="placeholder">Placeholder 3</option>
-    </select>
+  <h1>Henil Vedant</h1>
+  <p style="text-align:center; margin-top:-10px;">Offensive Security Researcher</p>
 
-    <!-- Cloud Security (IDS/IPS + CSPM Mindset) -->
-    <h2>Cloud Security (IDS/IPS & Edge Sensors)</h2>
-    <p>
-      I view cloud security posture management end‑to‑end—from <strong>secure provisioning</strong> and
-      infrastructure baselines to <strong>runtime drift detection</strong>, misconfiguration analysis,
-      exploit surfaces, and framework-aligned best practices. This includes IoT/edge IDS‑IPS research,
-      MQTT security, and configuration reviews that tie into cloud hardening.
-    </p>
-    <select onchange="if(this.value) window.open(this.value, '_blank')">
-      <option value="">Cloud Security Projects</option>
-      <option value="https://github.com/Henilv/IoT-app_sec/tree/main">IoT Edge Sensor IDS / Cloud Security</option>
-      <option class="placeholder">More coming soon...</option>
-      <option class="placeholder">Placeholder 1</option>
-      <option class="placeholder">Placeholder 2</option>
-      <option class="placeholder">Placeholder 3</option>
-    </select>
+  <!-- SECTION 1 — SEED + SYSTEM & WEB EXPLOITS -->
+  <h2>Web & System Security (Academia Exploits — SEED Labs)</h2>
+  <p>
+    During my Master's, SEED Labs served as the core foundation for learning real offensive security.
+    The labs simulate attacker–defender dynamics through structured exploitation of
+    <strong>system-level vulnerabilities</strong> such as race conditions, buffer overflows, stack/heap corruption,
+    <strong>network exploits</strong> including protocol spoofing and packet manipulation, and <strong>web exploits</strong>
+    including SSRF, CSRF, XSS, and web input sanitization bypasses.
+    These are executed in a CTF-style, cat–mouse format across in‑house VM environments.
+  </p>
 
-    <!-- Adversarial ML -->
-    <h2>Adversarial Machine Learning — Privacy & Security</h2>
-    <p>
-      I study the inherent flaws and implicit biases in ML systems—from <strong>training‑time vulnerabilities</strong>
-      like data poisoning to <strong>testing‑time evasions</strong> such as adversarial perturbations.
-      My research includes membership‑inference attacks, model‑extraction risks, and how these can
-      expose sensitive attributes, creating direct PII and privacy implications.
-    </p>
-    <select onchange="if(this.value) window.open(this.value, '_blank')">
-      <option value="">Adversarial ML Projects</option>
-      <option value="https://github.com/Henilv/MachineLearning_Privacy-Security">ML Privacy & Security Repo</option>
-      <option class="placeholder">More coming soon...</option>
-      <option class="placeholder">Placeholder 1</option>
-      <option class="placeholder">Placeholder 2</option>
-      <option class="placeholder">Placeholder 3</option>
-    </select>
+  <select onchange="if(this.value) window.open(this.value, '_blank')">
+    <option value="">SEED Labs / System Exploits</option>
+    <option value="https://github.com/Henilv/Computer_Security-attacks">Computer Security Attacks Repo</option>
+    <option value="">(Add more links here…)</option>
+    <option value="">(Placeholder 2)</option>
+    <option value="">(Placeholder 3)</option>
+  </select>
 
-    <!-- Privacy Preserving ML -->
-    <h2>Privacy‑Preserving ML (GDPR, Machine Unlearning)</h2>
-    <p>
-      My work explores mathematically grounded privacy‑preserving mechanisms such as
-      <strong>PATE</strong>, federated learning, and <strong>differential privacy</strong>, all offering
-      quantifiable privacy guarantees for individuals under regulations like GDPR.
-      I have also explored <strong>machine unlearning</strong>—a lesser-known approach where a
-      model can provably "forget" specific data points it was trained on, reducing residual risk
-      and enabling compliance with user-data erasure requirements.
-    </p>
-    <select onchange="if(this.value) window.open(this.value, '_blank')">
-      <option value="">Privacy Preserving ML</option>
-      <option value="https://github.com/Henilv/MachineLearning_Privacy-Security">Privacy & ML Repo</option>
-      <option class="placeholder">More coming soon...</option>
-      <option class="placeholder">Placeholder 1</option>
-      <option class="placeholder">Placeholder 2</option>
-      <option class="placeholder">Placeholder 3</option>
-    </select>
 
-    <h2>Contact & Profiles</h2>
-    <ul>
-      <li><a href="#">GitHub Profile</a></li>
-      <li><a href="#">LinkedIn</a></li>
-      <li><a href="#">Blog / Medium</a></li>
-      <li class="placeholder">Placeholder 1</li>
-      <li class="placeholder">Placeholder 2</li>
-    </ul>
+  <!-- SECTION 2 — CLOUD SECURITY -->
+  <h2>Cloud Security (IDS/IPS — Edge Sensors & CSPM)</h2>
+  <p>
+    My view of cloud security spans the entire lifecycle—from secure provisioning to runtime-hardening.
+    This includes <strong>cloud posture management</strong>, detecting misconfigurations, enforcing guardrails,
+    aligning with frameworks, and integrating <strong>IDS/IPS at the edge</strong> for MQTT‑based sensors and microservices.
+    The repositories here include cloud configuration audits, exploit PoCs, misconfiguration analysis,
+    and best-practice mapping across modern cloud environments.
+  </p>
 
-  </div>
+  <select onchange="if(this.value) window.open(this.value, '_blank')">
+    <option value="">Cloud Security Work</option>
+    <option value="https://github.com/Henilv/IoT-app_sec/tree/main">IoT Edge Sensors IDS</option>
+    <option value="">(Add more links here…)</option>
+    <option value="">(Placeholder 2)</option>
+    <option value="">(Placeholder 3)</option>
+  </select>
+
+
+  <!-- SECTION 3 — ADVERSARIAL ML -->
+  <h2>Adversarial Machine Learning — Privacy & Security</h2>
+  <p>
+    I work on evaluating the <strong>implicit algorithmic biases</strong> in ML systems, along with
+    <strong>training‑time & inference‑time adversarial threats</strong>. This includes data poisoning,
+    adversarial perturbations, membership inference attacks, and privacy‑leakage pathways that expose PII.
+    My work focuses on understanding how inherent flaws in ML pipelines create measurable security weaknesses.
+  </p>
+
+  <select onchange="if(this.value) window.open(this.value, '_blank')">
+    <option value="">Adversarial ML</option>
+    <option value="https://github.com/Henilv/MachineLearning_Privacy-Security">ML Privacy & Security Repo</option>
+    <option value="">(Add more links here…)</option>
+    <option value="">(Placeholder 2)</option>
+    <option value="">(Placeholder 3)</option>
+  </select>
+
+
+  <!-- SECTION 4 — PRIVACY-PRESERVING ML -->
+  <h2>Privacy-Preserving ML (GDPR, Unlearning, Federated Learning)</h2>
+  <p>
+    I study how to ensure mathematical privacy guarantees in ML systems using
+    <strong>differential privacy, federated learning, PATE frameworks, and privacy‑preserving aggregation</strong>.
+    One emerging technique I explore is <strong>Machine Unlearning</strong>—where a model “forgets”
+    specific data points it had previously learned, ensuring compliance with GDPR’s right-to-be-forgotten.
+    My work focuses on building privacy‑aligned, resilient ML models across distributed and sensitive environments.
+  </p>
+
+  <select onchange="if(this.value) window.open(this.value, '_blank')">
+    <option value="">Privacy-Preserving ML</option>
+    <option value="https://github.com/Henilv/MachineLearning_Privacy-Security">ML Privacy & Security Repo</option>
+    <option value="">(Add more links here…)</option>
+    <option value="">(Placeholder 2)</option>
+    <option value="">(Placeholder 3)</option>
+  </select>
+
+
+  <br><br>
+  <h2>Contact & Social</h2>
+  <p>
+    <a href="" target="_blank">LinkedIn</a> — add link<br>
+    <a href="" target="_blank">Blog / Medium</a> — add link<br>
+    <a href="" target="_blank">GitHub Profile</a> — add link<br>
+  </p>
+
+</div>
 </body>
 </html>
+
