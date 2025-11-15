@@ -1,134 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Henil Vedant — Security Research</title>
-
 <style>
-    body {
-        margin: 0;
-        background: #111111;
-        color: #e5e5e5;
-        font-family: "Fira Code", monospace;
-        line-height: 1.6;
-    }
-
-    header {
-        padding: 30px;
-        text-align: center;
-        font-size: 1.8rem;
-        color: #c8e0d8;
-        border-bottom: 1px solid #2b2b2b;
-        letter-spacing: 1px;
-    }
-
-    .section {
-        padding: 35px 25px;
-        border-bottom: 1px solid #1f1f1f;
-        max-width: 850px;
-        margin: auto;
-    }
-
-    h2 {
-        margin: 0 0 10px 0;
-        color: #d4e4df;
-        font-weight: 500;
-    }
-
-    select {
-        background: #1a1a1a;
-        color: #b0d0c5;
-        border: 1px solid #2e2e2e;
-        padding: 10px;
-        width: 100%;
-        margin-top: 10px;
-        font-family: "Fira Code", monospace;
-    }
-
-    a {
-        color: #a9cfc2;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #d0ebe3;
-        text-decoration: underline;
-    }
-
-    .footer {
-        text-align: center;
-        padding: 30px;
-        color: #777;
-        font-size: 0.9rem;
-    }
+  body {
+    margin: 0;
+    background: #f4f2ee; /* Japandi neutral */
+    color: #1c1c1c;
+    font-family: 'Fira Code', monospace;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  h1 {
+    text-align: center;
+    color: #0f5132; /* muted deep green */
+    margin-bottom: 5px;
+  }
+  h2 {
+    color: #5c6f68; /* Japandi sage */
+    margin-top: 40px;
+  }
+  p {
+    line-height: 1.6em;
+  }
+  select {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    font-family: 'Fira Code', monospace;
+  }
+  a {
+    color: #004b43;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .placeholder {
+    color: #999;
+  }
 </style>
-
 </head>
 <body>
+  <div class="container">
+    <h1>Henil Vedant</h1>
+    <p style="text-align:center; color:#333;">Offensive Security Researcher</p>
 
-<header>
-  Henil Vedant — Security Research
-</header>
+    <!-- Web & System Security (Academia Exploits - SEED Labs) -->
+    <h2>Web & System Security (Academia Exploits — SEED Labs)</h2>
+    <p>
+      SEED Labs formed the academic backbone of my Master's—structured as cat‑and‑mouse offensive
+      exploit labs across <strong>system-level vulnerabilities</strong> (buffer overflow, race conditions,
+      memory corruption), <strong>network exploits</strong> (protocol spoofing, packet manipulation), and
+      <strong>web exploitations</strong> such as SSRF, CSRF, XSS, and input sanitization bypasses.
+      These labs simulate real-world attacker–defender dynamics in controlled VM environments.
+    </p>
+    <select onchange="if(this.value) window.open(this.value, '_blank')">
+      <option value="">SEED & System Exploits</option>
+      <option value="https://github.com/Henilv/Computer_Security-attacks">Computer Security Attacks Repo</option>
+      <option class="placeholder">More coming soon...</option>
+      <option class="placeholder">Placeholder 1</option>
+      <option class="placeholder">Placeholder 2</option>
+      <option class="placeholder">Placeholder 3</option>
+    </select>
 
-<div class="section">
-  <h2>Internet Security / System Security Exploits</h2>
-  
+    <!-- Cloud Security (IDS/IPS + CSPM Mindset) -->
+    <h2>Cloud Security (IDS/IPS & Edge Sensors)</h2>
+    <p>
+      I view cloud security posture management end‑to‑end—from <strong>secure provisioning</strong> and
+      infrastructure baselines to <strong>runtime drift detection</strong>, misconfiguration analysis,
+      exploit surfaces, and framework-aligned best practices. This includes IoT/edge IDS‑IPS research,
+      MQTT security, and configuration reviews that tie into cloud hardening.
+    </p>
+    <select onchange="if(this.value) window.open(this.value, '_blank')">
+      <option value="">Cloud Security Projects</option>
+      <option value="https://github.com/Henilv/IoT-app_sec/tree/main">IoT Edge Sensor IDS / Cloud Security</option>
+      <option class="placeholder">More coming soon...</option>
+      <option class="placeholder">Placeholder 1</option>
+      <option class="placeholder">Placeholder 2</option>
+      <option class="placeholder">Placeholder 3</option>
+    </select>
 
-  <select onchange="if(this.value) window.open(this.value, '_blank')">
-    <option value="">Web & System</option>
-    <option value="https://github.com/Henilv/Computer_Security-attacks">System & Web- Academia Exploits- SEED LABS </option>
-  </select>
+    <!-- Adversarial ML -->
+    <h2>Adversarial Machine Learning — Privacy & Security</h2>
+    <p>
+      I study the inherent flaws and implicit biases in ML systems—from <strong>training‑time vulnerabilities</strong>
+      like data poisoning to <strong>testing‑time evasions</strong> such as adversarial perturbations.
+      My research includes membership‑inference attacks, model‑extraction risks, and how these can
+      expose sensitive attributes, creating direct PII and privacy implications.
+    </p>
+    <select onchange="if(this.value) window.open(this.value, '_blank')">
+      <option value="">Adversarial ML Projects</option>
+      <option value="https://github.com/Henilv/MachineLearning_Privacy-Security">ML Privacy & Security Repo</option>
+      <option class="placeholder">More coming soon...</option>
+      <option class="placeholder">Placeholder 1</option>
+      <option class="placeholder">Placeholder 2</option>
+      <option class="placeholder">Placeholder 3</option>
+    </select>
 
-  <br><br>
-  <strong>Your GitHub Exploit Repo:</strong><br>
-  <a href="https://github.com/Henilv/Computer_Security-attacks"Link</a>
-</div>
+    <!-- Privacy Preserving ML -->
+    <h2>Privacy‑Preserving ML (GDPR, Machine Unlearning)</h2>
+    <p>
+      My work explores mathematically grounded privacy‑preserving mechanisms such as
+      <strong>PATE</strong>, federated learning, and <strong>differential privacy</strong>, all offering
+      quantifiable privacy guarantees for individuals under regulations like GDPR.
+      I have also explored <strong>machine unlearning</strong>—a lesser‑known but crucial approach where a
+      model can provably "forget" specific data points it was trained on, reducing residual risk and
+      enabling compliance with user‑data erasure requirements.
+    </p>
+    <select onchange="if(this.value) window.open(this.value, '_blank')">
+      <option value="">Privacy Preserving ML</option>
+      <option value="https://github.com/Henilv/MachineLearning_Privacy-Security">Privacy & ML Repo</option>
+      <option class="placeholder">More coming soon...</option>
+      <option class="placeholder">Placeholder 1</option>
+      <option class="placeholder">Placeholder 2</option>
+      <option class="placeholder">Placeholder 3</option>
+    </select>
 
-<div class="section">
-  <h2>Cloud & Web API Security</h2>
-  <a href="https://github.com/Henilv/MachineLearning_Privacy-Security/blob/main/README.md">Add link here</a>
-  <p>P.</p>
+    <h2>Contact & Profiles</h2>
+    <p>Add your links by editing the placeholders below:</p>
+    <ul>
+      <li><a href="#">GitHub Profile</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Blog / Medium</a></li>
+      <li class="placeholder">Placeholder 1</li>
+      <li class="placeholder">Placeholder 2</li>
+    </ul>
 
-  <select disabled>
-    <option>N</option>
-  </select>
-
-  <br><br>
-  <strong>Y:</strong><br>
-  <!-- placeholder -->
-  <a href="YOUR_CLOUD_API_REPO_LINK">Add link here</a>
-</div>
-
-<div class="section">
-  <h2>Adversarial ML</h2>
-  <p>Privacy, unlearning, attacks & defenses.</p>
-
-  <select disabled>
-    <option>No projects yet</option>
-  </select>
-
-  <br><br>
-  <strong>Your ML repo:</strong><br>
-  <a href="YOUR_ADVERSARIAL_ML_REPO_LINK">Add link here</a>
-</div>
-
-<div class="section">
-  <h2>Links</h2>
-
-  <strong>GitHub:</strong><br>
-  <a href="YOUR_GITHUB_LINK">Add link here</a><br><br>
-
-  <strong>LinkedIn:</strong><br>
-  <a href="YOUR_LINKEDIN_LINK">Add link here</a><br><br>
-
-  <strong>Blog / Research:</strong><br>
-  <a href="YOUR_BLOG_1">Blog link 1</a><br>
-  <a href="YOUR_BLOG_2">Blog link 2</a><br>
-</div>
-
-<div class="footer">
-  © 2025 Henil Vedant — Minimal Japandi Edition
-</div>
-
+  </div>
 </body>
 </html>
